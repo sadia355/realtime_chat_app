@@ -1,6 +1,6 @@
     
 export const signup = (req, res) => {
-    
+    res.send("signup route");
 }
 
 export const login = (req, res) => {
