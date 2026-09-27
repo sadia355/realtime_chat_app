@@ -18,7 +18,8 @@ export const signup = async(req, res) => {
         })    
         
         if(newUser){
-
+            //genertae jwt token here
+            
         }
         else{
             res.status(400).json({message: "Invalid user data"});
